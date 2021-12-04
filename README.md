@@ -22,10 +22,8 @@ Here is an image of the Work day scheduler:
 
 ### Click the link below to see the full Work day scheduler! 
 
-<!-- my git hub link goes here-->
+https://roguestorm7.github.io/Work-Day-Scheduler-Challenge/
 
-<!--a name="usage"></a>
-## 3. Sample of the Work day scheduler. not sure if i need this-->
 
 ### User view of the Work day scheduler.
 
