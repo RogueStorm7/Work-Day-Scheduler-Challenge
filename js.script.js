@@ -43,10 +43,10 @@ var auditTime = function () {
          row8.addClass("present");
         // mark as present
     } else if (hour > 8) {
-        row8.addClass("future");
+        row8.addClass("past");
         // mark timeblock as past
     } else {
-        row8.addClass("past");
+        row8.addClass("future");
         // mark as future
     }
 
@@ -55,10 +55,10 @@ var auditTime = function () {
          row9.addClass("present");
         // mark as present
     } else if (hour > 9) {
-        row9.addClass("future");
+        row9.addClass("past");
         // mark timeblock as past
     } else {
-        row9.addClass("past");
+        row9.addClass("future");
         // mark as future
     }
 
@@ -68,10 +68,10 @@ var auditTime = function () {
          row10.addClass("present");
         // mark as present
     } else if (hour > 10) {
-        row10.addClass("future");
+        row10.addClass("past");
         // mark timeblock as past
     } else {
-        row10.addClass("past");
+        row10.addClass("future");
         // mark as future
     }
 
@@ -80,10 +80,10 @@ var auditTime = function () {
          row11.addClass("present");
         // mark as present
     } else if (hour > 11) {
-        row11.addClass("future");
+        row11.addClass("past");
         // mark timeblock as past
     } else {
-        row11.addClass("past");
+        row11.addClass("future");
         // mark as future
     }
 
@@ -92,10 +92,10 @@ var auditTime = function () {
         row12.addClass("present");
        // mark as present
    } else if (hour > 12) {
-       row12.addClass("future");
+       row12.addClass("past");
        // mark timeblock as past
    } else {
-       row12.addClass("past");
+       row12.addClass("future");
        // mark as future
    }
 
@@ -104,10 +104,10 @@ var auditTime = function () {
        row13.addClass("present");
       // mark as present
   } else if (hour > 13) {
-      row13.addClass("future");
+      row13.addClass("past");
       // mark timeblock as past
   } else {
-      row13.addClass("past");
+      row13.addClass("future");
       // mark as future
   }
 
@@ -116,10 +116,10 @@ var auditTime = function () {
       row14.addClass("present");
      // mark as present
  } else if (hour > 14) {
-     row14.addClass("future");
-     // mark timeblock as past
- } else {
      row14.addClass("past");
+     // mark timeblock as past
+ } else  {
+     row14.addClass("future");
      // mark as future
  }
 
@@ -128,10 +128,10 @@ var auditTime = function () {
      row15.addClass("present");
     // mark as present
 } else if (hour > 15) {
-    row15.addClass("future");
+    row15.addClass("past");
     // mark timeblock as past
 } else {
-    row15.addClass("past");
+    row15.addClass("future");
     // mark as future
 }
 
@@ -140,10 +140,10 @@ if (hour == 16) {
     row11.addClass("present");
    // mark as present
 } else if (hour > 16) {
-   row16.addClass("future");
+   row16.addClass("past");
    // mark timeblock as past
 } else {
-   row16.addClass("past");
+   row16.addClass("future");
    // mark as future
 
 }  
